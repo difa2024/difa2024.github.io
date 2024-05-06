@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta property="og:title" content="DIFA: Deep Learning-based Image Fusion and Its Applications"/>
+  <meta property="og:url" content="https://difa2024.github.io"/>
+  <!-- <meta property="og:image" content="static/figures/teaser.jpg" /> -->
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <title>DIFA</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+  <link rel="icon" href="static/figures/elephant.jpeg">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="publication-header">
+  <div class="hero-body">
+    <div class="container is-max-widescreen">
+      <!-- <div class="columns is-centered"> -->
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">DIFA: Deep Learning-based Image Fusion and Its Applications</h1>
+        </div>
+    </div>
+  </div>   
+</section>
+
+<section class="publication-author-block">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+		<div class="is-size-4 publication-authors">
+            <span class="author-block"><a href="https://difa2024.github.io/" target="_blank">Xingchen Zhang</a><sup>1</sup>,</span>
+			<span class="author-block"><a href="https://difa2024.github.io/" target="_blank">Zhixiang Chen</a><sup>2</sup></span>
+			<span class="author-block"><a href="https://difa2024.github.io/" target="_blank">Shuyan Li</a><sup>3</sup></span>
+			<span class="author-block"><a href="https://difa2024.github.io/" target="_blank">Yiannis Demiris</a><sup>4</sup></span>
+          </div>
+	  <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Exeter <sup>2</sup>University of Sheffield  <sup>3</sup>University of Cambridge <sup>4</sup>Imperial College London
+          </div>
+	  
+	  <div class="is-size-3 publication-authors">
+            <span class="author-block"><a href="https://fusion2024.org/tutorials/#l10" target="_blank">FUSION 2024 Tutorial</a></span> 
+          </div>
+	<div class="is-size-4 publication-authors">
+            <span class="author-block">Monday, July 8th Afternoon</span> 
+          </div>
+	<div class="is-size-4 publication-authors">
+            <span class="title is-5 blink"> <a href="https://fusion2024.org/register/">Register</a> </span> 
+          </div>
+
+          <!-- <div class="column has-text-centered"> -->
+          <!--   <div class="publication-links"> -->
+              
+            <!--   <span class="link-block"> -->
+            <!--     <a href="https://github.com/all-things-vits/code-samples" target="_blank" -->
+            <!--     class="external-link button is-normal is-rounded"> -->
+            <!--     <span class="icon"> -->
+            <!--       <i class="fab fa-github"></i> -->
+            <!--     </span> -->
+            <!--     <span>Code</span> -->
+            <!--   </a> -->
+            <!--   </span> -->
+            <!-- <span class="link-block"> -->
+            <!--   <a href="https://huggingface.co/all-things-vits"  target="_blank" -->
+            <!--      class="external-link button is-normal is-rounded"> -->
+            <!--     <span class="icon"> -->
+            <!--         <i class="fas fa-laptop"></i> -->
+            <!--     </span> -->
+            <!--     <span>Demos</span> -->
+            <!--   </a> -->
+            <!--  </span> -->
+
+            <!--  <span class="link-block"> -->
+            <!--   <a href="https://cvpr2023.thecvf.com/virtual/2023/tutorial/18574"  target="_blank" -->
+            <!--      class="external-link button is-normal is-rounded"> -->
+            <!--     <span class="icon"> -->
+            <!--         <i class="fa fa-globe"></i> -->
+            <!--     </span> -->
+            <!--     <span>Virtual Site</span> -->
+            <!--   </a> -->
+            <!--  </span> -->
+            <!--  <span class="link-block"> -->
+            <!--   <a href="https://drive.google.com/file/d/10NaQNVybucl8i2Or0iA_DC_NWkhs_IgV/view?usp=sharing"  target="_blank" -->
+            <!--      class="external-link button is-normal is-rounded"> -->
+            <!--     <span class="icon"> -->
+            <!--         <i class="fa fa-desktop"></i> -->
+            <!--     </span> -->
+            <!--     <span>Slides</span> -->
+            <!--   </a> -->
+            <!--  </span> -->
+            <!--  <span class="link-block"> -->
+            <!--   <a href="https://youtu.be/ma3NYVo8Im0"  target="_blank" -->
+            <!--      class="external-link button is-normal is-rounded"> -->
+            <!--     <span class="icon"> -->
+            <!--         <i class="fab fa-brands fa-youtube"></i> -->
+            <!--     </span> -->
+            <!--     <span>Recording</span> -->
+            <!--   </a> -->
+            <!--  </span> -->
+           
+          <!--   </div> -->
+          <!-- </div> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="hero is-small"> -->
+<!--   <\!-- <div class="hero-body"> -\-> -->
+<!-- <section class="hero teaser"> -->
+<!--   <div class="container is-max-desktop"> -->
+<!--     <div class="hero-body"> -->
+<!--       <\!-- <div id="results-carousel" class="carousel results-carousel"> -\-> -->
+<!--       <div class="container"> -->
+<!--       <div class="item"> -->
+<!--       <div class="column is-centered has-text-centered"> -->
+<!--         <img src="static/figures/teaser.jpg" alt="All_Things_ViTs" width="850px"/> -->
+      
+<!--       <h2 class="subtitle"> -->
+<!-- 	In this tutorial, we explore the use of attention in vision. From left to right: <b>(i)</b> attention can be used to explain the predictions by the model (e.g., CLIP for an image-text pair) <b>(ii)</b> Examples of probing attention-based models <b>(iii)</b> The cross-attention maps of multi-modal models can be used to guide generative models (e.g., mitigating neglect in Stable Diffusion). -->
+
+<!--       </h2> -->
+<!-- 	  </div> -->
+<!--     </div> -->
+<!--   </div> -->
+<!--  <\!--  </div> -\-> -->
+<!--   </div> -->
+<!--   </div> -->
+<!--  <\!--  </div> -\-> -->
+<!-- </section> -->
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+	    Deep learning-based image fusion has garnered considerable attention in recent years. However, despite massive progress, some challenges remain. Notably, there have not been any tutorials dedicated to image fusion. This tutorial will provide an introduction to deep learning-based image fusion and its applications, covering both methods and typical applications. It will also delve into other pertinent challenges, such as the need for comprehensive image fusion benchmarks. Hosting this tutorial now offers a timely opportunity to summarize the development of image fusion and introduce image fusion to more researchers. Additionally, this tutorial presents an opportunity for students and researchers in other fields to discover how they can benefit from image fusion technologies.
+
+          </p>
+          </p>
+Image fusion has been a subject of study for over 30 years. The field experienced a significant milestone in around 2017 with the introduction of deep learning techniques. Since then, deep learning-based image fusion has attracted significant attention, leading to substantial progress in algorithms, datasets, and benchmarks. Furthermore, image fusion has demonstrated its utility across a wide range of applications, including object tracking, object detection, medical image processing, robotics, autonomous driving, scene segmentation, pedestrian and cyclist detection, salient object detection, power facility inspection, surveillance, face recognition, crowd counting, vital sign measurement, motion estimation, crack detection in civil infrastructure, and multi-physiological signal estimation.
+
+          </p>
+          </p>
+The tutorial will introduce the latest advancements in deep learning-based image fusion and discuss its wide range of applications. This tutorial will offer a space for image fusion researchers to know both the advancements and challenges, and for the broad community in computer vision and robotics to discover how their applications can benefit from the development of image fusion. To the best of our knowledge, this will be the first tutorial to specifically focus on the intricacies of image fusion, highlighting the unique value of our DIFA tutorial in the context of related events. Particularly at a time when the field of image fusion is evolving rapidly, this tutorial will be invaluable in providing a forum to summarize past developments, delve into current trends, and anticipate the future directions of this dynamic field.
+
+          </p>
+        </div>
+</section>
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <!-- <div class="columns is-left"> -->
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Tutorial Outline</h2>
+		
+		<div class="content has-text-justified">
+          <p>
+			 The following is an outline of the topics we will cover in the tutorial. 
+			 <!-- The following is an outline of the topics we will cover in the tutorial. A detailed description can be found <a href="https://docs.google.com/document/d/1AHYQyi5rvTGZC8kKS1TEOMewl5_b1M6gHrTyUt38oFs/edit#heading=h.4fa4qoz6sg55">in this document</a>. -->
+		  <h5 class="title is-5">Different image fusion tasks</h5>
+		  
+		  <ul>
+		    <li>
+		      Visible and infrared image fusion
+		    </li>
+		    <li>
+		      Multi-focus image fusion
+		    </li>
+		    <li>
+		      Multi-exposure image fusion
+		    </li>
+		    <li>
+		      Medical image fusion
+		    </li>
+		    <li>
+		      General image fusion
+		    </li>
+		  </ul>
+
+		  
+    
+		  
+		  <h5 class="title is-5">Deep learning methods for image fusion</h5>
+		  
+		  <ul>
+		    <li>
+		      CNN-based methods
+		    </li>
+		    <li>
+		      GAN-based methods
+		    </li>
+		    <li>
+		      Autoencoder-based methods
+		    </li>
+		    <li>
+		      Transformer-based methods
+		    </li>
+		    <li>
+		      Diffusion model-based methods
+		    </li>
+		    <li>
+		      Application-driven image fusion methods
+		    </li>
+
+		  </ul>
+
+		  <h5 class="title is-5">Dataset and performance evaluation</h5>
+		  
+		  <ul>
+		    <li>
+		      Image fusion datasets
+		    </li>
+		    <li>
+		      Image fusion evaluation metrics
+		    </li>
+		    <li>
+		      Image fusion evaluation methods
+		    </li>
+		    <li>
+		      Image fusion benchmarks
+		    </li>
+		  </ul>
+
+		  
+		  <h5 class="title is-5">Image fusion applications</h5>    		  
+		  <ul>
+		    <li>
+		      Object tracking
+		    </li>
+		    <li>
+		      Object detection
+		    </li>
+		    <li>
+		      Scene segmentation
+		    </li>
+		    <li>
+		      Robotics
+		    </li>
+		    <li>
+		      Others
+		    </li>
+		  </ul>
+
+		  <h5 class="title is-5">Future trends of deep learning-based image fusion</h5>
+		  
+		  <!-- <ul> -->
+		  <!--   <li> -->
+		  <!--      -->
+		  <!--   </li> -->
+		  <!-- </ul> -->
+
+		  <h5 class="title is-5">Open questions and discussions</h5>
+		  
+		  <!-- <ul> -->
+		  <!--   <li> -->
+		      
+		  <!--   </li> -->
+		  <!-- </ul> -->
+    
+    		  
+	  <!-- 	  <h5 class="title is-5">Leveraging Attention as Explanation </h5> -->
+		  
+	  <!-- 	  <ul> -->
+          <!--     <li> -->
+          <!--         <i><b><span class="title is-5 blink">New!</span></b></i> <a href="https://rmokady.github.io/"> Ron Mokady</a> will share his seminal research on employing attention for text-based image editing. You can find <a href="https://drive.google.com/file/d/18U9rMGrMelC1oMv4c7j6aJwqkv5puSA9/view?usp=sharing">his slides</a> here. -->
+          <!--     </li> -->
+          <!--     <li> -->
+          <!--         Attention-based semantic guidance -->
+          <!--     </li> -->
+          <!-- </ul> -->
+		  
+		  </p>
+		  
+		  
+        </div>
+
+        <h2 class="title is-3 has-text-centered">Intended Audience</h2>
+        <div class="content has-text-justified">
+          <p>
+	    We cordially invite students and researchers from the fields of image fusion, image registration, and computer vision to attend the tutorial and delve into recent advancements and challenges in image fusion. Additionally, students and researchers from other domains who have an interest in the application of image fusion are also encouraged to participate. This tutorial represents a unique opportunity to engage with the latest developments in the field and to network with peers who share a common interest in the potential of image fusion technologies.
+      
+	</p>
+	</div>
+
+        <!-- <h2 class="title is-3 has-text-centered">Tutorial Logistics</h2> -->
+        <!-- <div class="content has-text-justified"> -->
+        <!-- <p> -->
+	<!-- 		  Our tutorial will be conducted in a hybrid manner on June 18, 2022 from 9 AM onwards. We aim to complete our tutorial by 12:00 PM (Canada time). Due the VISA issues, Sayak won't be able to present in person. So, he will be joining and presenting virtually. Our guest speaker Ron will also be presenting virtually. However, Hila will be presenting in person. -->
+        <!-- <ul> -->
+        <!--   <li><b>For in-person attendees: </b>Our tutorial will be presented at the Vancouver Convention Center <b>West 211</b>.</li> -->
+        <!--   <li><b>For virtual attendees: </b>Please see the <a href="https://cvpr2023.thecvf.com/virtual/current/index.html">virtual site</a>, where you can find the homepage of <a href="https://cvpr2023.thecvf.com/virtual/2023/tutorial/18574">our tutorial</a>. All the (registered) participants (both in-person and virtual) of CVPR will have access to a Zoom link to join the tutorial live and ask questions to the speakers via RocketChat.</li> -->
+        <!-- </ul> -->
+      
+	<!-- </p> -->
+	<!-- </div> -->
+
+		
+		<p class="content">
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- <section class="section hero is-light"> -->
+<!--   <div class="container is-max-desktop"> -->
+<!--     <\!-- Abstract. -\-> -->
+<!-- 	<h2 class="title is-4 is-centered has-text-centered">References</h2> -->
+<!--     <div class="columns is-centered has-text-centered"> -->
+        
+<!--         <div class="content has-text-justified"> -->
+<!--           <p> -->
+<!-- 		    [1] <i>Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers, </i> <b> Chefer et al.</b> -->
+<!-- 		   <br> -->
+<!--             [2] <i>Do Vision Transformers See Like Convolutional Neural Networks?, </i> <b> Raghu et al.</b> -->
+<!-- 		   <br> -->
+<!-- 			[3] <i>What do Vision Transformers Learn? A Visual Exploration, </i> <b> Ghiasi et al.</b> -->
+<!-- 		   <br> -->
+<!-- 		   [4] <i>Quantifying Attention Flow in Transformers, </i> <b> Abnar et al.</b> -->
+<!-- 		   <br> -->
+<!-- 		   [5] <i>Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models, </i> <b> Chefer et al.</b> -->
+<!-- 		   <br> -->
+<!--             [6] <i>Prompt-to-Prompt Image Editing with Cross-Attention Control, </i> <b> Hertz et al.</b> -->
+<!-- 		   <br> -->
+<!--              [7]<i>	NULL-text Inversion for Editing Real Images using Guided Diffusion Models, </i> <b> Mokady et al.</b> -->
+<!-- 		   <br> -->
+<!--           </p> -->
+<!--         </div> -->
+<!-- 		</div> -->
+<!-- </section> -->
+
+<footer class="footer">
+  <div class="columns is-centered">
+    <div class="column is-8">
+      <div class="content">
+        <p>
+          This website is licensed under a <a rel="license"
+          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+        Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+      <p>
+        Website source code based on the <a href="https://all-things-vits.github.io/atv//"> All Things ViTs</a> tutorial page. If you want to reuse their <a
+        href="https://github.com/all-things-vits/atv">source code</a>, please credit them appropriately.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+</footer>
+
+
+  <script type="text/javascript">
+    var sc_project=12351448; 
+    var sc_invisible=1; 
+    var sc_security="c676de4f"; 
+  </script>
+  <script type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js"
+  async></script>
+  <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12351448/0/c676de4f/1/"
+    alt="Web Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>

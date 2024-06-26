@@ -1,1 +1,1 @@
-Hosts the tutorial website, view live at: https://difa2024.github.io
+Hosts the workshop website, view live at: https://difa2024.github.io

@@ -31,23 +31,22 @@
 
   <style>
     .author-block {
-        margin-right: 20px; /* Adjust this value to increase or decrease the spacing */
+      margin-right: 20px; /* Adjust this value to increase or decrease the spacing */
     }
 
     .school-block {
-            margin-right: 20px; /* Adjust this value to increase or decrease the spacing for schools */
+      margin-right: 20px; /* Adjust this value to increase or decrease the spacing for schools */
     }
 
     .content ul {
-        list-style-type: none; /* Optional: Remove bullet points if desired */
-        padding-left: 0; /* Optional: Adjust padding */
+      list-style-type: none; /* Optional: Remove bullet points if desired */
+      padding-left: 0; /* Optional: Adjust padding */
     }
 
     .content li {
-        margin-bottom: 10px; /* Optional: Add space between list items */
+      margin-bottom: 10px; /* Optional: Add space between list items */
     }
 
-    /* To ensure that lines are not too short */
     .content.has-text-justified {
       max-width: 1200px; /* Adjust the maximum width as needed */
       margin: 0 auto; /* Center the content */
@@ -57,226 +56,207 @@
       font-size: 1.25rem; /* Adjust the font size as needed */
     }
 
-</style>
+    .section h2.title {
+      text-align: left; /* Left align the titles */
+    }
+
+    .content.has-text-left {
+      text-align: left; /* Left align the content */
+    }
+
+    .content.has-text-justify {
+      text-align: justify; /* Justify the content */
+    }
+
+    .container.is-fullwidth {
+      width: 100%; /* Ensure full width */
+      max-width: none; /* Override any max-width setting */
+      padding: 0 20px; /* Optional: Add some padding */
+    }
+
+    .content.has-text-left ul {
+      padding-left: 0; /* Remove padding from the unordered list */
+      margin-left: 0; /* Remove margin from the unordered list */
+    }
+
+    .content.has-text-left li {
+      padding-left: 0; /* Remove padding from the list items */
+      margin-left: 0; /* Remove margin from the list items */
+      list-style-position: inside; /* Optional: ensure list item marker is inside */
+    }
+
+    /* Adjust margin and padding to reduce space between sections */
+    .section {
+      margin-bottom: 1rem; /* Reduce bottom margin */
+      padding-top: 1rem; /* Reduce top padding */
+      padding-bottom: 1rem; /* Reduce bottom padding */
+    }
+  </style>
 
 </head>
 <body>
 
-
+<!-- Title -->
 <section class="publication-header">
   <div class="hero-body">
-    <div class="container is-max-widescreen">
-      <!-- <div class="columns is-centered"> -->
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">BMVC2024 Workshop</h1>
-          <h1 class="title is-2 publication-title">DIFA: Deep Learning-based Image Fusion and Its Applications</h1>
-          <h1 class="title is-4 publication-title">27th or 28th November, 2024, Glasgow, UK</h1>
-        </div>
+    <div class="container is-fullwidth">
+      <div class="column has-text-centered">
+        <h1 class="title is-1 publication-title">BMVC2024 Workshop</h1>
+        <h1 class="title is-2 publication-title">DIFA: Deep Learning-based Image Fusion and Its Applications</h1>
+        <h1 class="title is-4 publication-title">27th or 28th November, 2024, Glasgow, UK</h1>
+      </div>
     </div>
   </div>   
 </section>
 
+<!-- Organizers -->
 <section class="publication-author-block">
   <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
+    <div class="container is-fullwidth">
+      <div class="columns">
         <div class="column has-text-centered">
-		<div class="is-size-4 publication-authors">
-      <span class="author-block"><a href="https://computerscience.exeter.ac.uk/people/profile/index.php?web_id=xz569" target="_blank">Xingchen Zhang</a><sup>1</sup></span>
-			<span class="author-block"><a href="https://www.sheffield.ac.uk/cs/people/academic/zhixiang-chen" target="_blank">Zhixiang Chen</a><sup>2</sup></span>
-			<span class="author-block"><a href="https://pure.qub.ac.uk/en/persons/shuyan-li" target="_blank">Shuyan Li</a><sup>3</sup></span>
-			<span class="author-block"><a href="https://profiles.imperial.ac.uk/y.demiris" target="_blank">Yiannis Demiris</a><sup>4</sup></span>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block"><a href="https://computerscience.exeter.ac.uk/people/profile/index.php?web_id=xz569" target="_blank">Xingchen Zhang</a><sup>1</sup></span>
+            <span class="author-block"><a href="https://www.sheffield.ac.uk/cs/people/academic/zhixiang-chen" target="_blank">Zhixiang Chen</a><sup>2</sup></span>
+            <span class="author-block"><a href="https://pure.qub.ac.uk/en/persons/shuyan-li" target="_blank">Shuyan Li</a><sup>3</sup></span>
+            <span class="author-block"><a href="https://profiles.imperial.ac.uk/y.demiris" target="_blank">Yiannis Demiris</a><sup>4</sup></span>
           </div>
-	  <div class="is-size-6 publication-authors">
-      <span class="school-block"><sup>1</sup>University of Exeter</span>
-      <span class="school-block"><sup>2</sup>University of Sheffield</span>
-      <span class="school-block"><sup>3</sup>Queen's University Belfast</span>
-      <span class="school-block"><sup>4</sup>Imperial College London</span>
-    </div>
-	  
-	  <!-- <div class="is-size-3 publication-authors">
-            <span class="author-block"><a href="https://fusion2024.org/tutorials/#l10" target="_blank">FUSION 2024 Tutorial</a></span> 
-    </div> -->
-
-	<!-- <div class="is-size-4 publication-authors"> -->
-        <!--     <span class="author-block">Monday, July 8th Afternoon</span>  -->
-        <!--   </div> -->
-
-	<!-- <div class="is-size-4 publication-authors"> -->
-        <!--     <span class="title is-5 blink"> <a href="https://fusion2024.org/register/">Register</a> </span>  -->
-        <!--   </div> -->
- 
-
+          <div class="is-size-5 publication-authors">
+            <span class="school-block"><sup>1</sup>University of Exeter</span>
+            <span class="school-block"><sup>2</sup>University of Sheffield</span>
+            <span class="school-block"><sup>3</sup>Queen's University Belfast</span>
+            <span class="school-block"><sup>4</sup>Imperial College London</span>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section hero>
-  <div class="container is-widescreen">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
+<!-- Introduction -->
+<section class="section hero is-light">
+  <div class="container is-fullwidth">
+    <div class="columns">
       <div class="column">
         <h2 class="title is-3">Introduction</h2>
-        <div class="content has-text-justified">
+        <div class="content has-text-justify">
           <p>
-Image fusion has been a subject of study for over 30 years. The field experienced a significant milestone in around 2017 with the introduction of deep learning techniques. Since then, deep learning-based image fusion has attracted significant attention, leading to substantial progress in algorithms, datasets, and benchmarks. Furthermore, image fusion has demonstrated its utility across a wide range of applications, including object tracking, object detection, medical image processing, robotics, autonomous driving, scene segmentation, pedestrian and cyclist detection, salient object detection, power facility inspection, surveillance, face recognition, crowd counting, vital sign measurement, motion estimation and crack detection in civil infrastructure. This workshop provides a opportunity to gather researchers from the image fusion community, allowing them to review the current technological trends in image fusion and its applications, as well as discuss its future developments. This workshop also provides an opportunity for researchers in other fields to find out how they can benefit from image fusion technologies.          </p>
+            Image fusion has been a subject of study for over 30 years. The field experienced a significant milestone in around 2017 with the introduction of deep learning techniques. Since then, deep learning-based image fusion has attracted significant attention, leading to substantial progress in algorithms, datasets, and benchmarks. Furthermore, image fusion has demonstrated its utility across a wide range of applications, including object tracking, object detection, medical image processing, robotics, autonomous driving, scene segmentation, pedestrian and cyclist detection, salient object detection, power facility inspection, surveillance, face recognition, crowd counting, vital sign measurement, motion estimation and crack detection in civil infrastructure. This workshop provides a opportunity to gather researchers from the image fusion community, allowing them to review the current technological trends in image fusion and its applications, as well as discuss its future developments. This workshop also provides an opportunity for researchers in other fields to find out how they can benefit from image fusion technologies.
+          </p>
+
         </div>
-</section>
-
-<section class="section hero">
-  <div class="container is-widescreen">
-    <!-- <div class="columns is-left"> -->
-    <div class="columns is-centered">
-      <div class="column">
-        <h2 class="title is-3 has-text-centered">Call for papers</h2>
-		
-		<div class="content has-text-justified">
-          <p>
-			 The workshop will cover (but is not limited to) the following topics. 
-
-		  <h5 class="title is-5">1. Different image fusion tasks</h5>
-		  
-		  <ul>
-		    <li>
-         This inclues visible and infrared image fusion, multi-focus image fusion, multi-exposure image fusion, medical image fusion, remote sensing image fusion, multimodal image fusion, general image fusion, and other types of image fusion.
-		    </li>
-		  </ul>
-
-		  
-		  <h5 class="title is-5">2. Deep learning methods for image fusion</h5>
-		  
-		  <ul>
-		    <li>
-		      CNN-based methods,  GAN-based methods, autoencoder-based methods, transformer-based methods, diffusion model-based methods, application-driven image fusion methods, image registration methods for image fusion, etc.
-
-		    </li>
-
-		  </ul>
-
-		  <h5 class="title is-5">3. Dataset and performance evaluation</h5>
-		  
-		  <ul>
-		    <li>
-		      Image fusion datasets, image fusion evaluation metrics, image fusion evaluation methods, image fusion benchmarks
-
-		    </li>
-		  </ul>
-
-		  
-		  <h5 class="title is-5">4. Image fusion applications</h5>    		  
-		  <ul>
-		    <li>
-		      Object tracking, object detection, scene segmentation, robotics, etc.
-		    </li>
-
-		  </ul>
-
-      <h5 class="title is-5">5. Fusion of images with other modalities</h5>    		  
-		  <ul>
-		    <li>
-		      Image + tactile data, image + Lidar data, etc.
-		    </li>
-        
-		  </ul>
-
-		  </p> 
-		  
-        </div>
-
-
-              
-  <h2 class="title is-3 has-text-centered">Important dates</h2>
-  <div class="content has-text-justified">
-    <p>
-      <ul>
-        <li>Submission deadline: July 26th 2024, 23:59 (UK time)</li>
-        <li>Notification of acceptance: August 16th, 2024</li>
-        <li>Camera-ready submission: September 16th, 2024</li>
-      </ul>
-    </p>
-  </div>   
-
-  <h2 class="title is-3 has-text-centered">Paper submission</h2>
-  <div class="content has-text-justified">
-    <p>
-      <ul>
-        <li> Papers can be submitted via <a href="https://openreview.net/group?id=bmva.org/BMVC/2024/Workshop/DIFA#tab-your-consoles" target="_blank">OpenReview</a>. Format must follow the requirement of <a href="https://bmvc2024.org/authors/author-guidelines/" target="_blank">BMVC2024 main conference</a>. The review process will be double-blind.</li> 
-      </ul>
-    </p>
-  </div>   
-
-        <h2 class="title is-3 has-text-centered">Tentative Program</h2>
-        <div class="content has-text-justified">
-          <p>
-		  <ul>
-		    <li>
-	    08:00 - 08:15 Opening Remarks 
-		    </li>
-		    <li>
-		      08:15 - 09:40 Keynotes
-		    </li>
-		    <li>
-		      09:45 - 10:00 Break 
-		    </li>
-		    <li>
-		      10:00 - 11:15 Contributed talks
-		    </li>
-		    <li>
-		      11:15 - 11:50 Break and post section
-		    </li>
-		    <li>
-		      11:50 - 11:55 Best paper award announcement 
-		    </li>
-		    <li>
-		      11:55 - 12:00 Closing Remarks
-		    </li>
-		    </ul>
-      
-	</p>
-	</div>
-
-  <h2 class="title is-3 has-text-centered">Contact</h2>
-  <div class="content has-text-justified">
-    <p>
-<ul>
-  <li>
-    To contact the organizers please use x.zhang12@exeter.ac.uk
-  </li>
-  </ul>
-
-</p>
-</div>
-
-
-		
-        <!-- <h2 class="title is-3 has-text-centered">Intended Audience</h2> -->
-        <!-- <div class="content has-text-justified"> -->
-        <!--   <p> -->
-	<!--     We cordially invite students and researchers from the fields of image fusion, image registration, and computer vision to attend the tutorial and delve into recent advancements and challenges in image fusion. Additionally, students and researchers from other domains who have an interest in the application of image fusion are also encouraged to participate. This tutorial represents a unique opportunity to engage with the latest developments in the field and to network with peers who share a common interest in the potential of image fusion technologies. -->
-      
-	<!-- </p> -->
-	<!-- </div> -->
-
-        <!-- <h2 class="title is-3 has-text-centered">Tutorial Logistics</h2> -->
-        <!-- <div class="content has-text-justified"> -->
-        <!-- <p> -->
-	<!-- 		  Our tutorial will be conducted in a hybrid manner on June 18, 2022 from 9 AM onwards. We aim to complete our tutorial by 12:00 PM (Canada time). Due the VISA issues, Sayak won't be able to present in person. So, he will be joining and presenting virtually. Our guest speaker Ron will also be presenting virtually. However, Hila will be presenting in person. -->
-        <!-- <ul> -->
-        <!--   <li><b>For in-person attendees: </b>Our tutorial will be presented at the Vancouver Convention Center <b>West 211</b>.</li> -->
-        <!--   <li><b>For virtual attendees: </b>Please see the <a href="https://cvpr2023.thecvf.com/virtual/current/index.html">virtual site</a>, where you can find the homepage of <a href="https://cvpr2023.thecvf.com/virtual/2023/tutorial/18574">our tutorial</a>. All the (registered) participants (both in-person and virtual) of CVPR will have access to a Zoom link to join the tutorial live and ask questions to the speakers via RocketChat.</li> -->
-        <!-- </ul> -->
-      
-	<!-- </p> -->
-	<!-- </div> -->
-
-		
-		<p class="content">
       </div>
     </div>
   </div>
-</section> 
+</section>
+
+<!-- Call for papers -->
+<section class="section hero">
+  <div class="container is-fullwidth">
+    <div class="columns">
+      <div class="column">
+        <h2 class="title is-3">Call for papers</h2>
+        <div class="content has-text-left">
+          <p>
+            The workshop will cover (but is not limited to) the following topics. 
+            <h5 class="title is-5">1. Different image fusion tasks</h5>
+            <ul>
+              <li>Visible and infrared image fusion, multi-focus image fusion, multi-exposure image fusion, medical image fusion, remote sensing image fusion, multimodal image fusion, general image fusion, and other types of image fusion.</li>
+            </ul>
+            <h5 class="title is-5">2. Deep learning methods for image fusion</h5>
+            <ul>
+              <li>CNN-based methods, GAN-based methods, autoencoder-based methods, transformer-based methods, diffusion model-based methods, application-driven image fusion methods, image registration methods for image fusion, etc.</li>
+            </ul>
+            <h5 class="title is-5">3. Dataset and performance evaluation</h5>
+            <ul>
+              <li>Image fusion datasets, image fusion evaluation metrics, image fusion evaluation methods, image fusion benchmarks</li>
+            </ul>
+            <h5 class="title is-5">4. Image fusion applications</h5>    		  
+            <ul>
+              <li>Object tracking, object detection, scene segmentation, robotics, etc.</li>
+            </ul>
+            <h5 class="title is-5">5. Fusion of images with other modalities</h5>    		  
+            <ul>
+              <li>Image + tactile data, image + Lidar data, etc.</li>
+            </ul>
+          </p> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Important dates -->
+<section class="section hero">
+  <div class="container is-fullwidth">
+    <div class="columns">
+      <div class="column">
+        <h2 class="title is-3">Important dates</h2>
+        <div class="content has-text-left">
+          <ul>
+            <li>Submission deadline: July 26th 2024, 23:59 (UK time)</li>
+            <li>Notification of acceptance: August 16th, 2024</li>
+            <li>Camera-ready submission: September 16th, 2024</li>
+          </ul>
+        </div>   
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper submission -->
+<section class="section hero">
+  <div class="container is-fullwidth">
+    <div class="columns">
+      <div class="column">
+        <h2 class="title is-3">Paper submission</h2>
+        <div class="content has-text-left">
+          <ul>
+            <li> Papers can be submitted via <a href="https://openreview.net/group?id=bmva.org/BMVC/2024/Workshop/DIFA#tab-your-consoles" target="_blank">OpenReview</a>. Format must follow the requirement of <a href="https://bmvc2024.org/authors/author-guidelines/" target="_blank">BMVC2024 main conference</a>. The review process will be double-blind.</li> 
+          </ul>
+        </div>   
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tentative Program -->
+<section class="section hero">
+  <div class="container is-fullwidth">
+    <div class="columns">
+      <div class="column">
+        <h2 class="title is-3">Tentative Program</h2>
+        <div class="content has-text-left">
+          <ul>
+            <li>08:00 - 08:15 Opening Remarks</li>
+            <li>08:15 - 09:40 Keynotes</li>
+            <li>09:45 - 10:00 Break</li>
+            <li>10:00 - 11:15 Contributed talks</li>
+            <li>11:15 - 11:50 Break and post section</li>
+            <li>11:50 - 11:55 Best paper award announcement</li>
+            <li>11:55 - 12:00 Closing Remarks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section hero">
+  <div class="container is-fullwidth">
+    <div class="columns">
+      <div class="column">
+        <h2 class="title is-3">Contact</h2>
+        <div class="content has-text-left">
+          <ul>
+            <li>To contact the organizers please use x.zhang12@exeter.ac.uk</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer class="footer">
   <div class="columns is-centered">
@@ -286,32 +266,30 @@ Image fusion has been a subject of study for over 30 years. The field experience
           This website is licensed under a <a rel="license"
           href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
         Commons Attribution-ShareAlike 4.0 International License</a>.
-      </p>
-      <p>
-        Website source code based on the <a href="https://all-things-vits.github.io/atv//"> All Things ViTs</a> tutorial page. If you want to reuse their <a
-        href="https://github.com/all-things-vits/atv">source code</a>, please credit them appropriately.
-      </p>
+        </p>
+        <p>
+          Website source code based on the <a href="https://all-things-vits.github.io/atv//"> All Things ViTs</a> tutorial page. If you want to reuse their <a
+          href="https://github.com/all-things-vits/atv">source code</a>, please credit them appropriately.
+        </p>
+      </div>
     </div>
   </div>
-</div>
-</div>
 </footer>
 
+<script type="text/javascript">
+  var sc_project=12351448; 
+  var sc_invisible=1; 
+  var sc_security="c676de4f"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+  href="https://statcounter.com/" target="_blank"><img
+  class="statcounter"
+  src="https://c.statcounter.com/12351448/0/c676de4f/1/"
+  alt="Web Analytics"></a></div></noscript>
+  <!-- End of Statcounter Code -->
 
-  <script type="text/javascript">
-    var sc_project=12351448; 
-    var sc_invisible=1; 
-    var sc_security="c676de4f"; 
-  </script>
-  <script type="text/javascript"
-  src="https://www.statcounter.com/counter/counter.js"
-  async></script>
-  <noscript><div class="statcounter"><a title="Web Analytics"
-    href="https://statcounter.com/" target="_blank"><img
-    class="statcounter"
-    src="https://c.statcounter.com/12351448/0/c676de4f/1/"
-    alt="Web Analytics"></a></div></noscript>
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>

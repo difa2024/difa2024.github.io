@@ -9,7 +9,6 @@
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
-
   <title>DIFA</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
@@ -20,8 +19,7 @@
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -39,6 +37,26 @@
     .school-block {
             margin-right: 20px; /* Adjust this value to increase or decrease the spacing for schools */
     }
+
+    .content ul {
+        list-style-type: none; /* Optional: Remove bullet points if desired */
+        padding-left: 0; /* Optional: Adjust padding */
+    }
+
+    .content li {
+        margin-bottom: 10px; /* Optional: Add space between list items */
+    }
+
+    /* To ensure that lines are not too short */
+    .content.has-text-justified {
+      max-width: 1200px; /* Adjust the maximum width as needed */
+      margin: 0 auto; /* Center the content */
+    }
+
+    section {
+      font-size: 1.5rem; /* Adjust the font size as needed */
+    }
+
 </style>
 
 </head>
@@ -50,7 +68,9 @@
     <div class="container is-max-widescreen">
       <!-- <div class="columns is-centered"> -->
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">DIFA: Deep Learning-based Image Fusion and Its Applications</h1>
+          <h1 class="title is-1 publication-title">BMVC2024 Workshop</h1>
+          <h1 class="title is-2 publication-title">DIFA: Deep Learning-based Image Fusion and Its Applications</h1>
+          <h1 class="title is-4 publication-title">27th or 28th November, 2024, Glasgow, UK</h1>
         </div>
     </div>
   </div>   
@@ -62,10 +82,10 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
 		<div class="is-size-4 publication-authors">
-      <span class="author-block"><a href="https://difa2024.github.io/" target="_blank">Xingchen Zhang</a><sup>1</sup></span>
-			<span class="author-block"><a href="https://difa2024.github.io/" target="_blank">Zhixiang Chen</a><sup>2</sup></span>
-			<span class="author-block"><a href="https://difa2024.github.io/" target="_blank">Shuyan Li</a><sup>3</sup></span>
-			<span class="author-block"><a href="https://difa2024.github.io/" target="_blank">Yiannis Demiris</a><sup>4</sup></span>
+      <span class="author-block"><a href="https://computerscience.exeter.ac.uk/people/profile/index.php?web_id=xz569" target="_blank">Xingchen Zhang</a><sup>1</sup></span>
+			<span class="author-block"><a href="https://www.sheffield.ac.uk/cs/people/academic/zhixiang-chen" target="_blank">Zhixiang Chen</a><sup>2</sup></span>
+			<span class="author-block"><a href="https://pure.qub.ac.uk/en/persons/shuyan-li" target="_blank">Shuyan Li</a><sup>3</sup></span>
+			<span class="author-block"><a href="https://profiles.imperial.ac.uk/y.demiris" target="_blank">Yiannis Demiris</a><sup>4</sup></span>
           </div>
 	  <div class="is-size-6 publication-authors">
       <span class="school-block"><sup>1</sup>University of Exeter</span>
@@ -74,68 +94,18 @@
       <span class="school-block"><sup>4</sup>Imperial College London</span>
     </div>
 	  
-	  <!-- <div class="is-size-3 publication-authors"> -->
-          <!--   <span class="author-block"><a href="https://fusion2024.org/tutorials/#l10" target="_blank">FUSION 2024 Tutorial</a></span>  -->
-          <!-- </div> -->
+	  <!-- <div class="is-size-3 publication-authors">
+            <span class="author-block"><a href="https://fusion2024.org/tutorials/#l10" target="_blank">FUSION 2024 Tutorial</a></span> 
+    </div> -->
+
 	<!-- <div class="is-size-4 publication-authors"> -->
         <!--     <span class="author-block">Monday, July 8th Afternoon</span>  -->
         <!--   </div> -->
+
 	<!-- <div class="is-size-4 publication-authors"> -->
         <!--     <span class="title is-5 blink"> <a href="https://fusion2024.org/register/">Register</a> </span>  -->
         <!--   </div> -->
-
-          <!-- <div class="column has-text-centered"> -->
-          <!--   <div class="publication-links"> -->
-              
-            <!--   <span class="link-block"> -->
-            <!--     <a href="https://github.com/all-things-vits/code-samples" target="_blank" -->
-            <!--     class="external-link button is-normal is-rounded"> -->
-            <!--     <span class="icon"> -->
-            <!--       <i class="fab fa-github"></i> -->
-            <!--     </span> -->
-            <!--     <span>Code</span> -->
-            <!--   </a> -->
-            <!--   </span> -->
-            <!-- <span class="link-block"> -->
-            <!--   <a href="https://huggingface.co/all-things-vits"  target="_blank" -->
-            <!--      class="external-link button is-normal is-rounded"> -->
-            <!--     <span class="icon"> -->
-            <!--         <i class="fas fa-laptop"></i> -->
-            <!--     </span> -->
-            <!--     <span>Demos</span> -->
-            <!--   </a> -->
-            <!--  </span> -->
-
-            <!--  <span class="link-block"> -->
-            <!--   <a href="https://cvpr2023.thecvf.com/virtual/2023/tutorial/18574"  target="_blank" -->
-            <!--      class="external-link button is-normal is-rounded"> -->
-            <!--     <span class="icon"> -->
-            <!--         <i class="fa fa-globe"></i> -->
-            <!--     </span> -->
-            <!--     <span>Virtual Site</span> -->
-            <!--   </a> -->
-            <!--  </span> -->
-            <!--  <span class="link-block"> -->
-            <!--   <a href="https://drive.google.com/file/d/10NaQNVybucl8i2Or0iA_DC_NWkhs_IgV/view?usp=sharing"  target="_blank" -->
-            <!--      class="external-link button is-normal is-rounded"> -->
-            <!--     <span class="icon"> -->
-            <!--         <i class="fa fa-desktop"></i> -->
-            <!--     </span> -->
-            <!--     <span>Slides</span> -->
-            <!--   </a> -->
-            <!--  </span> -->
-            <!--  <span class="link-block"> -->
-            <!--   <a href="https://youtu.be/ma3NYVo8Im0"  target="_blank" -->
-            <!--      class="external-link button is-normal is-rounded"> -->
-            <!--     <span class="icon"> -->
-            <!--         <i class="fab fa-brands fa-youtube"></i> -->
-            <!--     </span> -->
-            <!--     <span>Recording</span> -->
-            <!--   </a> -->
-            <!--  </span> -->
-           
-          <!--   </div> -->
-          <!-- </div> -->
+ 
 
         </div>
       </div>
@@ -143,36 +113,12 @@
   </div>
 </section>
 
-<!-- <section class="hero is-small"> -->
-<!--   <\!-- <div class="hero-body"> -\-> -->
-<!-- <section class="hero teaser"> -->
-<!--   <div class="container is-max-desktop"> -->
-<!--     <div class="hero-body"> -->
-<!--       <\!-- <div id="results-carousel" class="carousel results-carousel"> -\-> -->
-<!--       <div class="container"> -->
-<!--       <div class="item"> -->
-<!--       <div class="column is-centered has-text-centered"> -->
-<!--         <img src="static/figures/teaser.jpg" alt="All_Things_ViTs" width="850px"/> -->
-      
-<!--       <h2 class="subtitle"> -->
-<!-- 	In this tutorial, we explore the use of attention in vision. From left to right: <b>(i)</b> attention can be used to explain the predictions by the model (e.g., CLIP for an image-text pair) <b>(ii)</b> Examples of probing attention-based models <b>(iii)</b> The cross-attention maps of multi-modal models can be used to guide generative models (e.g., mitigating neglect in Stable Diffusion). -->
-
-<!--       </h2> -->
-<!-- 	  </div> -->
-<!--     </div> -->
-<!--   </div> -->
-<!--  <\!--  </div> -\-> -->
-<!--   </div> -->
-<!--   </div> -->
-<!--  <\!--  </div> -\-> -->
-<!-- </section> -->
-
 <section class="section hero is-light">
-  <div class="container is-max-desktop">
+  <div class="container is-widescreen">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Background</h2>
+        <h2 class="title is-3">Introduction</h2>
         <div class="content has-text-justified">
           <p>
 	    Deep learning-based image fusion has garnered considerable attention in recent years. However, despite massive progress, some challenges remain. Notably, there have not been any workshops dedicated to image fusion. This workshop will provide an introduction to deep learning-based image fusion and its applications, covering both methods and typical applications. It will also delve into other pertinent challenges, such as the need for comprehensive image fusion benchmarks. Hosting this workshop now offers a timely opportunity to summarize the development of image fusion and introduce image fusion to more researchers. Additionally, this workshop presents an opportunity for students and researchers in other fields to discover how they can benefit from image fusion technologies.
@@ -190,16 +136,16 @@ The workshop will introduce the latest advancements in deep learning-based image
 </section>
 
 <section class="section hero">
-  <div class="container is-max-desktop">
+  <div class="container is-widescreen">
     <!-- <div class="columns is-left"> -->
     <div class="columns is-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3 has-text-centered">Workshop Topics</h2>
+      <div class="column">
+        <h2 class="title is-3 has-text-centered">Call for papers</h2>
 		
 		<div class="content has-text-justified">
           <p>
 			 The workshop will cover (but is not limited to) the following topics. 
-			 <!-- The following is an outline of the topics we will cover in the tutorial. A detailed description can be found <a href="https://docs.google.com/document/d/1AHYQyi5rvTGZC8kKS1TEOMewl5_b1M6gHrTyUt38oFs/edit#heading=h.4fa4qoz6sg55">in this document</a>. -->
+
 		  <h5 class="title is-5">Different image fusion tasks</h5>
 		  
 		  <ul>
@@ -297,38 +243,31 @@ The workshop will introduce the latest advancements in deep learning-based image
 		    </li>
 		  </ul>
 
-		  <!-- <h5 class="title is-5">Future trends of deep learning-based image fusion</h5> -->
-		  
-		  <!-- <ul> -->
-		  <!--   <li> -->
-		  <!--      -->
-		  <!--   </li> -->
-		  <!-- </ul> -->
-
-		  <!-- <h5 class="title is-5">Open questions and discussions</h5> -->
-		  
-		  <!-- <ul> -->
-		  <!--   <li> -->
-		      
-		  <!--   </li> -->
-		  <!-- </ul> -->
-    
-    		  
-	  <!-- 	  <h5 class="title is-5">Leveraging Attention as Explanation </h5> -->
-		  
-	  <!-- 	  <ul> -->
-          <!--     <li> -->
-          <!--         <i><b><span class="title is-5 blink">New!</span></b></i> <a href="https://rmokady.github.io/"> Ron Mokady</a> will share his seminal research on employing attention for text-based image editing. You can find <a href="https://drive.google.com/file/d/18U9rMGrMelC1oMv4c7j6aJwqkv5puSA9/view?usp=sharing">his slides</a> here. -->
-          <!--     </li> -->
-          <!--     <li> -->
-          <!--         Attention-based semantic guidance -->
-          <!--     </li> -->
-          <!-- </ul> -->
-		  
 		  </p>
 		  
 		  
         </div>
+
+     
+  <h2 class="title is-3 has-text-centered">Important dates</h2>
+  <div class="content has-text-justified">
+    <p>
+      <ul>
+        <li>Submission deadline: July 26th 2024, 23:59 (UK time)</li>
+        <li>Notification of acceptance: August 16th, 2024</li>
+        <li>Camera-ready submission: September 16th, 2024</li>
+      </ul>
+    </p>
+  </div>   
+
+  <h2 class="title is-3 has-text-centered">Paper submission</h2>
+  <div class="content has-text-justified">
+    <p>
+      <ul>
+        <li> Papers can be submitted via OpenReview. Format must follow the requirement of BMVC2024 main conference.</li>
+      </ul>
+    </p>
+  </div>   
 
         <h2 class="title is-3 has-text-centered">Tentative Program</h2>
         <div class="content has-text-justified">
@@ -375,6 +314,7 @@ The workshop will introduce the latest advancements in deep learning-based image
 	</p>
 	</div>
 
+
 		
         <!-- <h2 class="title is-3 has-text-centered">Intended Audience</h2> -->
         <!-- <div class="content has-text-justified"> -->
@@ -402,33 +342,6 @@ The workshop will introduce the latest advancements in deep learning-based image
     </div>
   </div>
 </section> 
-
-<!-- <section class="section hero is-light"> -->
-<!--   <div class="container is-max-desktop"> -->
-<!--     <\!-- Abstract. -\-> -->
-<!-- 	<h2 class="title is-4 is-centered has-text-centered">References</h2> -->
-<!--     <div class="columns is-centered has-text-centered"> -->
-        
-<!--         <div class="content has-text-justified"> -->
-<!--           <p> -->
-<!-- 		    [1] <i>Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers, </i> <b> Chefer et al.</b> -->
-<!-- 		   <br> -->
-<!--             [2] <i>Do Vision Transformers See Like Convolutional Neural Networks?, </i> <b> Raghu et al.</b> -->
-<!-- 		   <br> -->
-<!-- 			[3] <i>What do Vision Transformers Learn? A Visual Exploration, </i> <b> Ghiasi et al.</b> -->
-<!-- 		   <br> -->
-<!-- 		   [4] <i>Quantifying Attention Flow in Transformers, </i> <b> Abnar et al.</b> -->
-<!-- 		   <br> -->
-<!-- 		   [5] <i>Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models, </i> <b> Chefer et al.</b> -->
-<!-- 		   <br> -->
-<!--             [6] <i>Prompt-to-Prompt Image Editing with Cross-Attention Control, </i> <b> Hertz et al.</b> -->
-<!-- 		   <br> -->
-<!--              [7]<i>	NULL-text Inversion for Editing Real Images using Guided Diffusion Models, </i> <b> Mokady et al.</b> -->
-<!-- 		   <br> -->
-<!--           </p> -->
-<!--         </div> -->
-<!-- 		</div> -->
-<!-- </section> -->
 
 <footer class="footer">
   <div class="columns is-centered">

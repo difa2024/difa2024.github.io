@@ -116,10 +116,48 @@
       text-align: center; /* Center the logos */
     }
 
+    .navbar {
+      background-color: #3273dc; /* Set background color */
+      color: white; /* Set text color */
+    }
+
+    .navbar a.navbar-item {
+      color: white; /* Set link color */
+    }
+
+    .navbar a.navbar-item:hover {
+      background-color: #2759a5; /* Set hover background color */
+    }
+
   </style>
 
 </head>
 <body>
+
+<!-- Navigation Bar -->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container is-fullwidth">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">DIFA Workshop</a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="#introduction">Home</a>
+        <a class="navbar-item" href="#call-for-papers">Call for Papers</a>
+        <a class="navbar-item" href="#important-dates">Important Dates</a>
+        <a class="navbar-item" href="#paper-submission">Submission</a>
+        <a class="navbar-item" href="#program">Program</a>
+        <a class="navbar-item" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>  
 
 <!-- Title -->
 <section class="publication-header">

@@ -156,6 +156,28 @@
       text-decoration: underline; /* Add underline on hover */
     }
 
+    .invited-speaker img {
+      border-radius: 50%;
+      width: 150px;
+      height: 200px; /* Adjust height to make the image oval */
+      object-fit: cover; /* Ensure images are the same size and cropped to fit */
+      object-position: top; /* Move image down slightly */
+      margin-bottom: 1rem;
+    }
+
+    .invited-speaker p {
+      margin: 0.5rem 0;
+    }
+
+    .invited-speaker a {
+      text-decoration: none; /* Remove underline from links */
+      color: inherit; /* Inherit color */
+    }
+
+    .invited-speaker a:hover {
+      text-decoration: underline; /* Add underline on hover */
+    }
+
   </style>
 
 </head>
@@ -180,6 +202,7 @@
         <a class="navbar-item" href="#important-dates">Important Dates</a>
         <a class="navbar-item" href="#paper-submission">Submission</a>
         <a class="navbar-item" href="#program">Program</a>
+        <a class="navbar-item" href="#invited-speakers">Invited Speakers</a>
         <a class="navbar-item" href="#organisers">Organisers</a>
         <a class="navbar-item" href="#contact">Contact</a>
       </div>
@@ -207,7 +230,7 @@
       <div class="columns">
         <div class="column has-text-centered">
           <div class="is-size-4 publication-authors">
-            <span class="author-block"><a href="https://computerscience.exeter.ac.uk/people/profile/index.php?web_id=xz569" target="_blank">Xingchen Zhang</a><sup>1</sup></span>
+            <span class="author-block"><a href="https://xingchenzhang.github.io/" target="_blank">Xingchen Zhang</a><sup>1</sup></span>
             <span class="author-block"><a href="https://www.sheffield.ac.uk/cs/people/academic/zhixiang-chen" target="_blank">Zhixiang Chen</a><sup>2</sup></span>
             <span class="author-block"><a href="https://pure.qub.ac.uk/en/persons/shuyan-li" target="_blank">Shuyan Li</a><sup>3</sup></span>
             <span class="author-block"><a href="https://profiles.imperial.ac.uk/y.demiris" target="_blank">Yiannis Demiris</a><sup>4</sup></span>
@@ -334,6 +357,21 @@
   </div>
 </section>
 
+<!-- New section for Invited Speakers -->
+<section id="invited-speakers" class="section hero is-light">
+  <div class="container is-fullwidth">
+    <h2 class="title is-3">Invited Speakers</h2>
+    <div class="columns is-multiline">
+      <!-- <div class="column is-one-quarter invited-speaker">
+        <img src="static/figures/Bartek.jpeg" alt="Bartek Papiez">
+        <p><strong><a href="https://www.bdi.ox.ac.uk/Team/bartek-papiez" target="_blank">Invited Speaker 1</a></strong></p>
+        <p>Associate Professor</p>
+        <p>University of Oxford</p>
+      </div> -->
+    </div>
+  </div>
+</section>
+
 <!-- New section for Organisers -->
 <section id="organisers" class="section hero is-light">
   <div class="container is-fullwidth">
@@ -341,7 +379,7 @@
     <div class="columns is-multiline">
       <div class="column is-one-quarter organiser">
         <img src="static/figures/Xingchen.jpg" alt="Xingchen Zhang">
-        <p><strong><a href="https://computerscience.exeter.ac.uk/people/profile/index.php?web_id=xz569" target="_blank">Xingchen Zhang</a></strong></p>
+        <p><strong><a href="https://xingchenzhang.github.io/" target="_blank">Xingchen Zhang</a></strong></p>
         <p>Senior Lecturer</p>
         <p>University of Exeter</p>
       </div>
